@@ -9,4 +9,4 @@ if (statusLogin && acessoAdministrador) {
     var permissoes = 'O usuário não está logado ou não possuí permissões de edição';
 }
 
-console.log(permissoes)
+console.log(permissoes);
