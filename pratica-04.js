@@ -3,10 +3,15 @@
 var statusAprovacaoAlunoNotaExtra = false;
 var statusAprovacaoAlunoNotaRegular = false;
 
-if (statusAprovacaoAlunoNotaExtra || statusAprovacaoAlunoNotaRegular) {
-    var status = 'O aluno foi aprovado, ou por Nota Extra ou Nota Regular!';
-} else {
-    var status = 'O aluno foi reprovado, tanto em Nota Extra, como Nota Regular!';
-}
+const resultado = statusAprovacaoAlunoNotaExtra || statusAprovacaoAlunoNotaRegular;
 
-console.log(status);
+console.log(`Resultado do operador OR: ${resultado}`);
+
+// operação mais complexa
+// if (statusAprovacaoAlunoNotaExtra || statusAprovacaoAlunoNotaRegular) {
+//     var status = 'O aluno foi aprovado, ou por Nota Extra ou Nota Regular!';
+// } else {
+//     var status = 'O aluno foi reprovado, tanto em Nota Extra, como Nota Regular!';
+// }
+
+// console.log(status);
