@@ -3,10 +3,16 @@
 var statusLogin = true;
 var acessoAdministrador = false;
 
-if (statusLogin && acessoAdministrador) {
-    var permissoes = 'O usuário está logado e possui permissões de edição';
-} else {
-    var permissoes = 'O usuário não está logado ou não possuí permissões de edição';
-}
+const resultado = statusLogin && acessoAdministrador
 
-console.log(permissoes);
+console.log(resultado);
+
+// forma mais complexa
+
+// if (statusLogin && acessoAdministrador) {
+//     var permissoes = 'O usuário está logado e possui permissões de edição';
+// } else {
+//     var permissoes = 'O usuário não está logado ou não possuí permissões de edição';
+// }
+
+// console.log(permissoes);
